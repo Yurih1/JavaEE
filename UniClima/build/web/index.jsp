@@ -52,7 +52,8 @@
                                 <p>Cidade: <%=clima.getName() + ", " + clima.getSys().getCountry()%> </p>
                             </div>
                             <div>
-                                <p><strong>Agora: </strong><%= StrUtils.convertToTitleCaseIteratingChars(clima.getWeather().get(0).getDescription()) %></p>                                <p><strong>Temperatura: </strong><%= clima.getMain().getTemp()%>ºC</p>
+                                <p><strong>Agora: </strong><%= StrUtils.convertToTitleCaseIteratingChars(clima.getWeather().get(0).getDescription()) %></p>                                
+                                <p><strong>Temperatura: </strong><%= clima.getMain().getTemp()%>ºC</p>
                                 <p><strong>Max: </strong><%= clima.getMain().getTempMax()%>ºC</p>
                                 <p><strong>Min: </strong><%= clima.getMain().getTempMin()%>ºC</p>
                                 <p><strong>Umidade: </strong><%= clima.getMain().getHumidity()%>%</p>
