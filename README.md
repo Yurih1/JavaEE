@@ -1,2 +1,3 @@
-# Arquivos de aula Java WEB
-Repositório para armazenas aqruivos feito em aula e testes praticos.
+# Class files Java WEB
+
+Repository for storing files made in class and practical tests.
